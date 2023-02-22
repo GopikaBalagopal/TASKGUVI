@@ -1,4 +1,4 @@
-//  //print odd numbers in an array
+// // a) print odd numbers in an array
 
 // // anonymous:
 //  let arr=[1,2,3,4,5,6,7,8,9]
@@ -38,7 +38,7 @@
 //                });
 
 
-// // convert all the sting to title caps in string array
+// //b) convert all the sting to title caps in string array
 
 // // anonymous:
 
@@ -96,9 +96,9 @@
 // console.log(littlecaps(arr))
 
 
-////sum of all numbers in an array
+// //c)sum of all numbers in an array
 
-////anonymous:
+// //anonymous:
 
 // let arr=[1,2,3,4,5,6,7,8,9]
 
@@ -113,7 +113,7 @@
 // }
 // console.log(sum(arr))
 
-////IIFE
+// //IIFE
 
 // (function(array){
 //    let sum=0;
@@ -125,7 +125,7 @@
 // console.log(sum)
 // })([1,2,3,4,5,6,7,8,9])
 
-////arrow function
+// //arrow function
 // let arr=[1,2,3,4,5,6,7,8,9]
 
 // let sum=(array) => {
@@ -140,9 +140,9 @@
 // console.log(sum(arr))
 
 
-//Return all the prime numbers in an array
+// //d)Return all the prime numbers in an array
 
-// anonymous 
+// // anonymous 
 // let arr=[12,3,4,5,6,8,9,7,5,2,1]
 
 // let prime=function(arr){
@@ -163,7 +163,7 @@
 // }
 // console.log(prime(arr))
 
-//IIFE 
+// //IIFE 
 
 // (function(arr){
 //   let primearray=[];
@@ -184,9 +184,9 @@
 
 
 
-//Arrow Function :
+// //Arrow Function :
 
-//let arr=[12,3,4,5,6,8,9,7,5,2,1]
+// let arr=[12,3,4,5,6,8,9,7,5,2,1]
 
 // let prime=(arr)=>{
 //   let primearray=[];
@@ -208,9 +208,9 @@
 
 
 
-//return all the palindromes in an array
+// //e)return all the palindromes in an array
 
-//anonymous 
+// //anonymous 
 
 // let arr=['malayalam', 'english', 'wow', 'noon', 'evening']
 
@@ -229,7 +229,7 @@
 // console.log(findpalidrome(arr))
 
 
-// IIFE
+// //IIFE
 
 // (function(arr){
 
@@ -245,7 +245,7 @@
 // )(['malayalam', 'english', 'wow', 'noon', 'evening'])
 
 
-//arrow function
+// //arrow function
 
 // let arr=['malayalam', 'english', 'wow', 'noon', 'evening']
 
@@ -266,9 +266,9 @@
 
 
 
-//return median two sorted array of same size
+// //f)return median two sorted array of same size
 
-//anonymous
+// //anonymous
 // let arr1=[1,5,6,8,9]
 // let arr2=[2,3,4,7,10]
 // let median=function(arr1,arr2){
@@ -284,7 +284,7 @@
 
 
 
-//IIFE
+// //IIFE
 
 // (function(arr1,arr2){
 //   let arr=arr1.concat(arr2)
@@ -296,10 +296,10 @@
 //   })([1,5,6,8,9],[2,3,4,7,10])
   
 
-//remove duplicates from an array
+// //g)remove duplicates from an array
 
 
-//anonymous
+// //anonymous
 
 // var arr = [1,3,4,9,6,8,3,9,1,2] 
 
@@ -318,7 +318,7 @@
 // console.log(findduplicate(arr))
       
 
-//IIFE
+// //IIFE
 
 
 // (function(arr){
@@ -335,8 +335,8 @@
 //   })([1,3,4,9,6,8,3,9,1,2] )
 
 
-//rotate an array by k times 
-//anonymous
+// //h) rotate an array by k times 
+// //anonymous
 
 
 // let arr=[1,2,3,4,5,6]
@@ -351,7 +351,7 @@
 //   console.log(rotate(arr))
 
 
-//IIFE
+// //IIFE
 
 // (function(arr, k) {
 
